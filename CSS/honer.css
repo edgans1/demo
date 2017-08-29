@@ -1,0 +1,326 @@
+@charset "utf-8";
+.all{
+	height:100%;
+	width:100%;
+	font-family: 'MicrosoftyaHei';
+	background:#fafafa;
+}
+.top, .nav,.banner, footer{
+	width: 100%;
+	background: rgb(241,241,241);
+}
+.top-sea, header ,.contant, .foot-tit ,.foot-contant{
+	height:31px;
+	width:1000px;
+	margin:0 auto;
+}
+.top-sea, header{
+	display:flex;
+	justify-content:flex-end;
+	align-items: center;
+}
+.top-sea input{
+	width: 152px;
+	padding-left: 12px;
+	height: 22px;
+	border-radius: 10px;
+	border:1px solid rgb(211,211,211);
+	font-size: 12px
+}
+.top-sea img{
+	height: 20px;
+	margin-left: 5px
+}
+header{
+	height:81px;
+	justify-content: space-between;
+}
+.top-nav{
+	width: 701px;
+	height: 16px;
+	position: relative;
+}
+.top-nav a {
+	font-family: 'MicrosoftyaHei';
+	font-size: 15px;
+	color: #272727;
+	padding: 0 3.5px;
+}
+.top-nav a:after{
+	content: "/";
+	font-size: 14px;
+	color: #c4c0c0;
+	margin-left: 5px;
+}
+.top-nav a:last-child:after{
+	content: "";
+}
+.top-nav a:hover{
+	color: #3f3f3f;
+}
+.top-nav img{
+	position: absolute;
+	top:-16px;
+	right:250px;
+}
+.banner{
+	height: 170px;
+	background-image:url(../images/people/hrbanner.jpg);
+	position: relative;
+}
+.contant{
+	height: 775px;
+	margin-top: 6px;
+}
+.contant-left, .contan-right{
+	width: 245px;
+	float: left;
+	height: 100%;
+	box-shadow: 0 2px 5px #ececec;
+	background: #f0f0f0;
+}
+.contan-tit{
+	width: 100%;
+	height: 56px;
+	margin-bottom: 2px;
+	background: linear-gradient(to right, #d6d9d7, #eeeeee);
+	color: #858585;
+	line-height: 70px;
+}
+.contan-tit h3{
+	font-size: 18px;
+	color: #616161;
+	margin-left:15px; 
+	font-family: '微软雅黑';
+}
+.contan-tit span{
+	font-family: Arial;
+	font-size: 14px;
+	color: #c9c9c9;
+	font-weight: normal;
+	margin-left: 5px
+}
+.tit-hr, .right-tit{
+	width: 100%;
+	height: 35px;
+	margin-top: 1px;
+	border-bottom: 1px solid #e1e1e1;
+	border-top: 1px solid #e1e1e1;
+	cursor: pointer;
+	font-size: 15px;
+	color: #797777
+}
+.tit-hr:hover{
+	background: #c1b9b1;
+}
+.tit-hr:nth-child(3):hover{
+	background: #c1b9b1;
+}
+.hr{
+	position: relative;
+	top: 10px;
+	left: 25px;
+}
+.spe{
+	top: 13px;
+	left: 38px;
+}
+.ha{
+	top: -27px;
+	left: 38px
+
+}
+.tit-hr:nth-child(2){
+	margin-top: 4px;
+	color: #fff;
+	background: #c1b9b1;
+	border: none;
+	}
+.tit-hr:nth-child(3){
+	background: none;
+	color: #797777;
+	border: none;
+	margin-top:0px;
+}
+.tit{
+	position: relative;
+	top: 12px;
+	left: 14px;
+}
+.tit-image{
+	position: relative;
+	top: 13px;
+	left: -50px;
+}
+.contant-logo{
+	margin-top: 26px;
+	height: 144px;
+	background-color: #d2d2d2;
+	background-image:url(../images/people/jieshao_25.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.contant-right{
+	width: 745px;
+	float: right;
+	box-shadow: 0 2px 5px #ececec;
+	background:#fff; 
+	height: 100%;
+	position: relative;
+}
+.right-tit{
+	border: none;
+	height: 55px;
+	background: #fbfbfb;
+	box-shadow: 0 1px 5px #eeeeee;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.right-tit h3{
+	font-size: 22px;
+	color: #6a6969;
+	margin-left: 26px
+}
+.right-tit span{
+	font-size: 14px;
+	color: #7d7d7d;
+	margin-right: 16px;
+}
+.right-tit strong{
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666
+}
+.right-main , .right-cover{
+	width:692px;
+	margin: 0 auto;
+	margin-top:35px;
+}
+.right-main{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.right-contant{
+	height: 167px;
+	width: 215px;
+	box-shadow: 0 1px 2px #e1e1e1;
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 1s;
+	background: #fff;
+	position:relative;
+	z-index: 2;
+}
+.right-cover{
+	background: #333;
+	display: none;
+	position: absolute;
+	height: 600px;
+	width: 100%;
+	opacity: 0.5;
+}
+.contant-phone{
+	height: 67px;
+	border-bottom: 1px solid #e5e5e5;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.phone{
+	width: 216px;
+	height: 41px;
+	float: right;
+}
+.phone p{
+	display: inline-block;
+	font-size: 12px;
+	color: #8f8f8f;
+}
+.adress{
+	font-size: 12px;
+	color: #4f4f4f;
+	margin-top: 9px;
+}
+.tel-fon{
+	font-size: 22px;
+	color: #494949;
+	font-family: 'Century Gothic';
+	margin-top:9px;
+	vertical-align: center;
+}
+.phone:before{
+	position: absolute;
+	content:"";
+	width: 6px;
+	height: 41px;
+	background: #d9d9d9;
+	top: 15px;
+	left: 7px;
+}
+footer{
+	margin-top: 46px;
+	height: 207px;
+	background: #2c2c2c;
+}
+.foot-tit{
+	height: 50px;
+}
+.foot-tit ul{
+	display: flex;
+	width: 50%;
+	float: left;
+}
+.foot-tit ul img{
+	width: 74px;
+	height: 19px;
+}
+.foot-tit ul:nth-child(2){
+	justify-content: flex-end;
+	align-items: center;
+}
+.foot-tit ul li{
+	display: inline-block;
+	width: 96px;
+	height: 50px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 50px;
+	color: #cfcfcf;
+}
+.foot-tits{
+	color:#fff;
+	background: linear-gradient(to bottom, #d92b2b, #d92b2b);
+}
+.foot-tit ul li:nth-child(2){
+	background: linear-gradient( to bottom, #5e5e5e,#414141);
+	color: #e3e3e3;
+}
+.foot-tit ul span{
+	margin:0 10px;
+	text-align: center;
+}
+.foot-line{
+	width: 100%;
+	height: 2px;
+	background: #535353;
+}
+.foot-contant{
+	height: 156px;
+	line-height: 80px;
+	font-size: 13px;
+	color: #8e8e8e;
+	text-align: center;
+	position: relative;
+}
+.foot-contant img{
+	position: absolute;;
+	top: 64px;
+	left: 451px;
+}

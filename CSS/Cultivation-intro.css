@@ -1,0 +1,361 @@
+@charset "utf-8";
+.all{
+	height:100%;
+	width:100%;
+	font-family: 'MicrosoftyaHei';
+	background:#fafafa;
+}
+.cover{
+	height: 775px;
+	width:1000px;
+	display: none;
+	opacity: .6;
+	background: #333333;
+	position: absolute;
+	z-index: 2;
+}
+.top, .nav,.banner, footer{
+	width: 100%;
+	background: rgb(241,241,241);
+}
+.top-sea, header ,.contant, .foot-tit ,.foot-contant{
+	height:31px;
+	width:1000px;
+	margin:0 auto;
+}
+.top-sea, header{
+	display:flex;
+	justify-content:flex-end;
+	align-items: center;
+}
+.top-sea input{
+	width: 152px;
+	padding-left: 12px;
+	height: 22px;
+	border-radius: 10px;
+	border:1px solid rgb(211,211,211);
+	font-size: 12px
+}
+.top-sea img{
+	height: 20px;
+	margin-left: 5px
+}
+header{
+	height:81px;
+	justify-content: space-between;
+}
+.top-nav{
+	width: 701px;
+	height: 16px;
+	position: relative;
+}
+.top-nav a {
+	font-family: 'MicrosoftyaHei';
+	font-size: 15px;
+	color: #272727;
+	padding: 0 3.5px;
+}
+.top-nav a:after{
+	content: "/";
+	font-size: 14px;
+	color: #c4c0c0;
+	margin-left: 5px;
+}
+.top-nav a:last-child:after{
+	content: "";
+}
+.top-nav a:hover{
+	color: #3f3f3f;
+}
+.top-nav img{
+	position: absolute;
+	top:-16px;
+	right:250px;
+}
+.banner{
+	height: 170px;
+	background-image:url(../images/Cultivation-intro/bannersell.jpg);
+	position: relative;
+}
+.contant{
+	height: 775px;
+	margin-top: 6px;
+}
+.contant-left, .contan-right{
+	width: 245px;
+	float: left;
+	height: 100%;
+	box-shadow: 0 2px 5px #ececec;
+	background: #f7f7f7;
+}
+.contan-tit{
+	width: 100%;
+	height: 56px;
+	margin-bottom: 2px;
+	background: linear-gradient(to right, #d6d9d7, #eeeeee);
+	color: #858585;
+	line-height: 70px;
+}
+.contan-tit h3{
+	font-size: 18px;
+	color: #616161;
+	margin-left:15px; 
+	font-family: '微软雅黑';
+}
+.contan-tit span{
+	font-family: Arial;
+	font-size: 14px;
+	color: #c9c9c9;
+	font-weight: normal;
+	margin-left: 5px
+}
+.tit-hr, .right-tit{
+	width: 100%;
+	height: 35px;
+	margin-top: 1px;
+	border-bottom: 1px solid #e1e1e1;
+	border-top: 1px solid #ffffff;
+	cursor: pointer;
+	font-size: 15px;
+	background: linear-gradient( to right, #29c982, #0a9657)
+}
+.tit-hr:hover{
+	background: #c1b9b1;
+}
+.hr{
+	position: relative;
+	top: 10px;
+	left: 25px;
+	color: #ffffff;
+}
+.tit{
+	position: relative;
+	top: 8px;
+	left: 14px;
+}
+.contant-logo{
+	margin-top: 26px;
+	height: 144px;
+	background-color: #d2d2d2;
+	background-image:url(../images/people/jieshao_25.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.contant-right{
+	width: 745px;
+	float: right;
+	box-shadow: 0 2px 5px #ececec;
+	background:#fff; 
+	height: 100%;
+	position: relative;
+}
+.right-tit{
+	border: none;
+	height: 55px;
+	background: #fbfbfb;
+	box-shadow: 0 1px 5px #eeeeee;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.right-tit h3{
+	font-size: 22px;
+	color: #6a6969;
+	margin-left: 26px
+}
+.right-tit span{
+	font-size: 14px;
+	color: #7d7d7d;
+	margin-right: 16px;
+}
+.right-tit strong{
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	margin-right: 8px;
+}
+.main{
+	height: 690px;
+	width: 712px;
+	margin: 0 auto;
+	margin-top: 18px;
+	
+}
+.main-intr{
+	width: 95%;
+	height: 224px;
+	display: flex;
+}
+.ca{
+	width: 398px;
+	border: 1px solid #f8f8f8;
+	height: 100%;
+	margin-left: 3px;
+	flex-direction:column;
+}
+.ca, .ca ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+} 
+.ca ul{
+	margin-left: 5%;
+	width: 80%;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.ca ul li{
+	width: 100%;
+	line-height: 24px;
+	font-size: 12px;
+	color: #2e2e2e;
+}
+.ca ul li:first-child{
+	font-size: 14px;
+	font-weight: bold;
+}
+.ca input{
+	width: 197px;
+	height: 37px;
+	background: #e4742e;
+	color: #fff;
+	font-size:18px;
+	line-height: 22px;
+	margin: 0 auto;
+	border: 1px solid #fff;
+	border-radius: 8px;
+}
+#change{
+	height:100%;
+	width: 295px;
+	position: relative;
+	z-index: 99;
+	transition: all 1s;
+}
+.intorduce, .another{
+	height: 230px;
+	width: 100%;
+	background: #f9f9f9;
+	margin-top:20px;
+}
+.another{
+	height: 177px;
+}
+.ano-main{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 147px;
+	width: 100%;
+}
+.ano-main ul{
+	list-style: square;
+	width: 25%;
+	height: 80%;
+	border-right: 1px solid #ebebeb;
+	display: flex;
+	justify-content: flex-end;
+	align-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.ano-main ul li{
+	width: 80%;
+	font-size: 12px;
+	line-height: 22px;
+}
+.ano-main ul span{
+	color: #7c7c7c;
+}
+.ano-main ul:first-child span{
+	margin-left: 10px;
+}
+.ano-main ul:last-child{
+	border: none;
+}
+.intro-tit{
+	height: 36px;
+	width: 100%;
+	background: #f1f1f1;
+	border-bottom: 1px solid #ececec;
+	line-height: 36px;
+}
+.intro-tit h3{
+	font-size: 16px;
+	font-weight: normal;
+	margin-left: 12px;
+}
+.contant-phone,  .right-tit span{
+	display: flex;
+	align-items: center;
+}
+.contant-phone{
+	height: 67px;
+	border-bottom: 1px solid #e5e5e5;
+	position: relative;
+	justify-content: flex-end;
+}
+.phone{
+	width: 216px;
+	height: 41px;
+	float: right;
+}
+.phone p{
+	display: inline-block;
+	font-size: 12px;
+	color: #8f8f8f;
+}
+.adress{
+	font-size: 12px;
+	color: #4f4f4f;
+	margin-top: 12px;
+}
+.tel-fon{
+	font-size: 22px;
+	color: #494949;
+	font-family: 'Century Gothic';
+	margin-top:9px;
+	vertical-align: center;
+}
+.phone:before{
+	position: absolute;
+	content:"";
+	width: 6px;
+	height: 41px;
+	background: #d9d9d9;
+	top: 15px;
+	left: 7px;
+}
+footer{
+	margin-top: 46px;
+	height: 207px;
+	background: #2c2c2c;
+}
+.foot-tit{
+	height: 50px;
+	color:#8e8e8e;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.foot-line{
+	width: 100%;
+	height: 2px;
+	background: #535353;
+}
+.foot-contant{
+	height: 156px;
+	line-height: 80px;
+	font-size: 13px;
+	color: #8e8e8e;
+	text-align: center;
+	position: relative;
+}
+.foot-contant img{
+	position: absolute;;
+	top: 64px;
+	left: 451px;
+}
